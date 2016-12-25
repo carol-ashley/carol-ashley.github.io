@@ -1,0 +1,104 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0; }
+
+#navbar {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+  #navbar * {
+    display: inline-block;
+    padding: 0 0.5em;
+    text-decoration: none;
+    vertical-align: middle; }
+  #navbar p {
+    color: gray;
+    font: 2em "Source Sans Pro", sans-serif;
+    line-height: 2em;
+    margin: 0;
+    padding: 0.1em; }
+    #navbar p:hover {
+      color: #ee2b2b; }
+  #navbar #id-block img {
+    height: 3em;
+    image-rendering: pixelated;
+    width: 3em; }
+  #navbar #nav-block {
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    transform: translate(-50%, 0); }
+    #navbar #nav-block .vDivider {
+      background-color: #ee2b2b;
+      padding: 0;
+      height: 3em;
+      width: 2px; }
+
+#hero {
+  background-color: #ee2b2b;
+  height: 15em;
+  overflow: hidden;
+  position: relative;
+  top: 4em;
+  width: 100%;
+  z-index: -1; }
+  #hero p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    text-align: center; }
+  #hero .wheel * {
+    display: none;
+    position: relative; }
+  #hero .waterfall {
+    display: block;
+    position: relative; }
+  #hero #name {
+    font-size: 5em;
+    padding: 0.6em 0 0; }
+  #hero #title {
+    font-size: 2em; }
+
+#content {
+  background-color: white;
+  position: relative;
+  padding: 0 0 1em 0;
+  top: 4em; }
+  #content > * {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle; }
+  #content #text-pane {
+    width: 54.5%; }
+    #content #text-pane * {
+      position: relative;
+      margin: 0; }
+    #content #text-pane p {
+      color: gray;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 2em;
+      text-align: justify;
+      padding: 0.5em 1em 0;
+      text-indent: 2em; }
+    #content #text-pane #greeting {
+      text-align: left;
+      text-indent: 0; }
+    #content #text-pane #signatory {
+      text-align: right;
+      text-indent: 0; }
+  #content #img-pane {
+    width: 44.5%; }
+    #content #img-pane * {
+      position: relative;
+      margin: 0; }
+    #content #img-pane img {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+      left: 10%;
+      width: 80%; }
+
+/*# sourceMappingURL=theme.css.map */
