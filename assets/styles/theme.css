@@ -72,6 +72,8 @@ body {
     padding: 0.6em 0 0; }
 
 #content {
+  background-color: white;
+  color: gray;
   position: relative;
   top: 4em; }
   #content * {
@@ -84,26 +86,20 @@ body {
     padding: 0.5em 0 0;
     text-align: justify;
     text-indent: 2em; }
-  #content .white-pane {
-    background-color: white;
-    color: gray; }
-    #content .white-pane #text {
-      left: 7.5%;
-      width: 70%; }
-      #content .white-pane #text .header {
-        font-size: 2.5em;
-        text-align: left;
-        text-indent: 0; }
-  #content .red-pane {
-    background-color: #f42525;
-    color: white; }
-    #content .red-pane #text {
-      left: 22.5%;
-      width: 70%; }
-      #content .red-pane #text .header {
-        font-size: 2.5em;
-        text-align: right;
-        text-indent: 0; }
+  #content .left-pane #text {
+    left: 7.5%;
+    width: 70%; }
+    #content .left-pane #text .header {
+      font-size: 2.5em;
+      text-align: left;
+      text-indent: 0; }
+  #content .right-pane #text {
+    left: 22.5%;
+    width: 70%; }
+    #content .right-pane #text .header {
+      font-size: 2.5em;
+      text-align: right;
+      text-indent: 0; }
 
 #split-content {
   background-color: white;
